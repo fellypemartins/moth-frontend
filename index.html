@@ -1,0 +1,40 @@
+<!--
+
+--->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moth - Links em Casulos</title>
+    <script src="./scripts/main.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div id="moth-box">
+
+        <h1>Moth Links</h1>
+        <img src="moth.png" id="moth-img">
+
+        <div id="link-box"> 
+            <input type="text" id="name" placeholder="Um nome para o link">
+            <input type="text" id="content" placeholder="Seu link">
+            <button id="button" onclick="saveLink()">Encurtar</button>
+        </div> 
+
+        <div id="short-box">
+            <p id="prgf">Seu link:</p>
+            <a id="link"></a>
+            <span class="material-symbols-outlined" id="copy">
+                content_copy
+            </span>
+        </div>
+        
+
+    </div>
+        
+</body>
+</html>
